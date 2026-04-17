@@ -6,6 +6,14 @@
 
 ---
 
+## ⚠️ 安全警告
+
+> **所有 API Key 和 Webhook 地址禁止上传到任何公共仓库！**
+> 
+> 上传前请务必替换为环境变量或占位符，防止信息泄露。
+
+---
+
 ## 🎯 功能特性
 
 ### 模型看门狗（model_watchdog.py）
@@ -37,7 +45,7 @@
 
 ### 1. 配置 API Key
 
-**方式一：环境变量**
+**方式一：环境变量（推荐）**
 ```bash
 export MINIMAX_KEY="your-minimax-key"
 export DEEPSEEK_KEY="your-deepseek-key"
